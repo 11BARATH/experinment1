@@ -29,11 +29,9 @@ public class ExamSimulator {
             }
         }
 
-        // Display Results
-        System.out.println("Quiz completed!");
+     
         System.out.println("Your score: " + score + "/" + questions.length);
 
-        // Close the scanner
         scanner.close();
     }
 }
